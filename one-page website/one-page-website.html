@@ -3,15 +3,17 @@
 	<head>
 		<title>Ferrari</title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/one_page_website.css">
 	</head>
 	<body>
 	
 		<!-- NAV -->
-		<div>
-			<div>
-				<ul>
+		<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
 					<a href="#home" id="link"><li>Home</li></a>
 					<a href="#gallery"><li>Gallery</li></a>
+					<a href="#Video"><li>Video</li></a>
 					<a href="#contact"><li>Reservation</li></a>
 				</ul>
 			</div>
@@ -21,7 +23,7 @@
 		<!-- HOME -->
 		<div id="home">
 			<div>
-				<div>
+				<div class="home">
 					<span>Ferrari</span>
 				</div>
 			</div>
@@ -31,7 +33,7 @@
 		<!-- GALLERY -->
 		<section>
 			<div id="gallery">
-				<h1>Gallery</h1>
+				<h1 class="gallery-text">Gallery</h1>
 				<div>
 				
 					<!-- PHOTO-CONTAINER 1 -->
@@ -77,9 +79,10 @@
 		<!-- END GALLERY -->
 		
 		<!-- VIDEO -->
-		<div>
+		<div id="Video">
+			<h1 class="video-text">Video</h1>
 			<div>
-				<iframe style="width:800px; height:500px" src="https://youtube.com/embed/I4q3USGa7sA"</iframe>
+				<iframe style="width:800px; height:500px" src="https://youtube.com/embed/I4q3USGa7sA"></iframe>
 			</div>
 		</div>
 		<!-- END VIDEO -->
@@ -89,12 +92,12 @@
 		<section>
 			<div id="contact">
 				<div>
-					<h1>Order Today</h1>
+					<h1 class="h1-text">Order Today</h1>
 					<div>
-						<h2><span>Ferrari, the speed is in your control.</span>
-							<br />Buy online today, no charge.
+						<h2 class="h2-text"><span>Ferrari, the speed is in your control.</span>
+							<br />Buy online today, no added charge.
 						</h2>
-						<p>
+						<p class="info-text">
 							Please provide us with your basic contact information.
 						</p>
 						<div>
